@@ -1,0 +1,10 @@
+---
+- name: include vars
+  include_vars: var_public.yml 
+
+- name: Login To Docker Hub
+  docker_login:
+        registry: "{{ docker_hub_repo }}"
+        username: pigstah
+        password: "{{ docker_hub_password }}"
+

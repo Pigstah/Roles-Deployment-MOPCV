@@ -1,0 +1,5 @@
+docker_hub_repo: docker.io/pigstah/flask
+container_name: matt_cv_web
+container_network: matt_network
+docker_hub_password: Thatiscorrect!1991
+

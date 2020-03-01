@@ -1,0 +1,7 @@
+---
+# tasks file for /home/pigstah/deploy/roles/onepagedeploy
+
+- import_tasks: docker_login.yml
+- import_tasks: docker_pull.yml
+- import_tasks: docker_run.yml
+

@@ -1,0 +1,6 @@
+---
+# vars file for /home/pigstah/deploy/roles/onepagedeploy
+
+include_vars: var_secret.yml
+include_vars: var_public.yml
+

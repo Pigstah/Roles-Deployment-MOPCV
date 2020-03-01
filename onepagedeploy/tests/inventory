@@ -1,0 +1,4 @@
+localhost
+
+[webservers]
+localhost ansible_ssh_host=178.62.41.212
